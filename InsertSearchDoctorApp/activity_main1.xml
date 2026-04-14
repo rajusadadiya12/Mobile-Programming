@@ -1,0 +1,28 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/etId" android:hint="Doctor ID"/>
+        <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/etFname" android:hint="First Name"/>
+        <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/etLname" android:hint="Last Name"/>
+        <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/etMob" android:hint="Mobile"/>
+        <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/etAdd" android:hint="Address"/>
+        <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/etCity" android:hint="City"/>
+        <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/etSpec" android:hint="Specialization"/>
+
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:id="@+id/btnSubmit"
+            android:text="Submit"/>
+
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:id="@+id/btnSearchPage"
+            android:text="Go to Search"/>
+
+    </LinearLayout>
+</ScrollView>
